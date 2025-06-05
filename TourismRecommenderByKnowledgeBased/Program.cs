@@ -6,6 +6,12 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddSingleton<TourismRecommender.DataAccess.Repositories.IDestinationRepository,
+    TourismRecommender.DataAccess.Repositories.InMemoryDestinationRepository>();
+builder.Services.AddSingleton<TourismRecommender.Business.Services.IDestinationService,
+    TourismRecommender.Business.Services.DestinationManager>();
+builder.Services.AddSingleton<TourismRecommenderByKnowledgeBased.Services.RuleEngineService>();
+builder.Services.AddHttpClient<TourismRecommenderByKnowledgeBased.Services.GeminiService>();
 
 var app = builder.Build();
 

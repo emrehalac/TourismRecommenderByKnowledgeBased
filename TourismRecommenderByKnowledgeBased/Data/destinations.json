@@ -1,0 +1,48 @@
+[
+  {
+    "Id": 1,
+    "Name": "Paris",
+    "Description": "City of Light.",
+    "Attributes": {
+      "Climate": "Temperate",
+      "Sea": "No",
+      "ColorfulStreets": "Yes",
+      "Culture": "High",
+      "History": "Rich",
+      "Budget": "High",
+      "Accommodation": "Hotel",
+      "Nightlife": "Yes",
+      "LocalCuisine": "Fine",
+      "NatureIntegration": "Low",
+      "GroupTrip": "Yes",
+      "TripDuration": "Weekend",
+      "VisaRequirement": "Schengen",
+      "Shopping": "Yes",
+      "Romantic": "Yes",
+      "DirectFlight": "Yes"
+    }
+  },
+  {
+    "Id": 2,
+    "Name": "Bangkok",
+    "Description": "Vibrant city in Thailand.",
+    "Attributes": {
+      "Climate": "Hot",
+      "Sea": "Nearby",
+      "ColorfulStreets": "Yes",
+      "Culture": "High",
+      "History": "Moderate",
+      "Budget": "Low",
+      "Accommodation": "Hostel",
+      "Nightlife": "Yes",
+      "LocalCuisine": "Street",
+      "NatureIntegration": "Medium",
+      "GroupTrip": "Yes",
+      "TripDuration": "Week",
+      "VisaRequirement": "None",
+      "Shopping": "Yes",
+      "Romantic": "No",
+      "DirectFlight": "Yes"
+    }
+  }
+]
