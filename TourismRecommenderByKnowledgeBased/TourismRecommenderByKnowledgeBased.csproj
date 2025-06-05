@@ -8,6 +8,13 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <ProjectReference Include="../TourismRecommender.Business/TourismRecommender.Business.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Data/destinations.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
